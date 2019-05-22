@@ -134,6 +134,10 @@ Get free SSL certificates thanks to [Let’s Encrypt](https://letsencrypt.org/).
 dokku plugin:install https://github.com/dokku/dokku-letsencrypt.git
 dokku letsencrypt:cron-job --add
 ```
+Auto renewal
+```sh
+dokku letsencrypt:auto-renew
+```
 
 And locally, run:
 
